@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Horario</title>
     <style>
-        body{
-            background-color: rgb(119, 180, 230);
-            width: 85%;
-            padding: 5%;
-        }
+        
+        
         h1, h3{
             border: solid 5px black;
             text-align: center;
         }
-        #cn{
-           padding-right: 10%;
-           padding-left: 10%;
-        }
+        
         form{
             padding-right: 10%;
            padding-left: 10%;
         }
+        body{
+            
+            background-color: rgb(119, 180, 230);
+            width: 85%;
+            padding: 5%;
+            margin: 0 auto;
+            min-width: 40em;
+         max-width: 56em;
+          }
+     
     </style>
 </head>
 <body>
@@ -29,6 +33,20 @@
       <center>
             <img src= "uni.jpg" width= "40%" height= "30%"/>
       </center> 
+      <main>
+    <p> A continuación se muestra el horario de clases así como los correspondientes profesores del grupo de 1°H de la carrera Ing. en Software.</p>
+    <h2>Materia Recibidas</h2>
+    <ui>
+        <li>Electiva</li>
+        <li>Matemáticas básicas</li>
+        <li>Ética para ingeniería</li>
+        <li>Fundamentos de redes de datos</li>
+        <li>Introd. a la Ing. de software</li>
+        <li>Inglés</li>
+        <li>Sistemas operativos</li>
+        <li>Fundamentos de programación</li>
+    </ui>
+
     
     <table border="1" width=65% bgcolor="pink">
             <tr>
@@ -168,7 +186,7 @@
                 <td>Flores Cortés Carlos Alberto</td>
                 <td>cfcortes@ucol.mx</td>
                 <td>Profesor de Tiempo Completo</td>
-                <td></td>   
+                <td><img src="profe.png" width="90%" height="50%"/> </td>   
             </tr>
             <tr>
                 <td><em>Electiva</em></td>
@@ -202,8 +220,10 @@
                 <input type="number" id="Clave"/>
             </div>
             <div>
-                <button type="submit">Enviar</button> 
+                <button type="submit">Enviar</button>
             </div>
        </form>
+       </main>
+       <img src= "tecnologia.jpg" width= "100%" height= "30%"/> 
 </body>
 </html>
