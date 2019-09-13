@@ -4,10 +4,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Perfil Personal</title>
+    <style>
+        body{
+            background-color: bisque;
+            width: 75%;
+            padding: 10%;
+        }
+        h1{
+            background-color: blueviolet;
+        }
+        h1, h3{
+            border: solid 5px black;
+            text-align: center;
+        }
+        #cn{
+           padding-right: 40%;
+           padding-left: 30%;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <img src= "yo.jpg" width= "30%" height= "70%"/> 
     <h1>Perfil Personal</h1>
+    <img src= "yo.jpg" width= "30%" height= "70%" id="cn"/> 
     <h2>Kenia Elizabeth Villa Serratos</h2>
     <p>Hola, soy Kenia cuento con la edad de 18 años, actualmente estoy estudiando el primer semestre de Ing. en Software en la Universidad de Colima, me gusta aprender cosas nuevas, viajar, me encantan los perritos y los gatitos. </p>
     <h2><em>Datos de contacto</em></h2>
@@ -60,7 +81,7 @@
     <embed src="video.mp4"  width= "500" height= "300" > 
         <h4><em>Formulario para contactos</em></h4>
         <form>
-                <div>
+                 <div>
                     <label Nombre</label>
                     <label for "nombre">Nombre</label>
                     <input type="text" id="nombre">
