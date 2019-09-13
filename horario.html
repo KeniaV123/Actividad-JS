@@ -10,6 +10,18 @@
             width: 85%;
             padding: 5%;
         }
+        h1, h3{
+            border: solid 5px black;
+            text-align: center;
+        }
+        #cn{
+           padding-right: 10%;
+           padding-left: 10%;
+        }
+        form{
+            padding-right: 10%;
+           padding-left: 10%;
+        }
     </style>
 </head>
 <body>
@@ -108,7 +120,90 @@
                 <td><strong>Correo</strong></td>
                 <td><strong>Tipo de profesor</strong></td>
                 <td><strong>Foto</strong></td>
-            </tr>            
+            </tr> 
+            <tr>
+                <td><em>Matemáticas</em></td>
+                <td>Moreno Osegueda Raymundo</td>
+                <td>rmoreno1@ucol.mx</td>
+                <td>Profesor por Horas</td>
+                <td></td>
+            </tr>     
+            <tr>
+                <td><em>Ética para ingeniería</em></td>
+                <td>Alcaraz Amador Martha Cristina</td>
+                <td>malcaraz@ucol.mx</td>
+                <td>Profesor por Horas</td>
+                <td></td>
+            </tr> 
+            <tr>
+                <td><em>Fundamentos de redes de datos</em></td>
+                <td>Villegas Aguayo Roberto Rafael</td>
+                <td>robvillegas@ucol.mx</td>
+                <td>Profesor por Horas</td>
+                <td></td>   
+            </tr>
+            <tr>
+                <td><em>Introd. a la Ing. de software</em></td>
+                <td>Rangel Alcantar Erick</td>
+                <td>erick@ucol.mx</td>
+                <td>Profesor por Horas</td>
+                <td></td>
+            </tr> 
+            <tr>
+                <td><em>Inglés</em></td>
+                <td>Avalos Diaz Julia Karina</td>
+                <td>julia_avalos@ucol.mx</td>
+                <td>Profesor por Horas</td>
+                <td></td>
+            </tr>     
+            <tr>
+                <td><em>Sistemas operativos</em></td>
+                <td>Avalos Corona Luis Miguel</td>
+                <td>luis.avalos@ucol.mx</td>
+                <td>Profesor por Horas</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><em>Fundamentos de programación</em></td>
+                <td>Flores Cortés Carlos Alberto</td>
+                <td>cfcortes@ucol.mx</td>
+                <td>Profesor de Tiempo Completo</td>
+                <td></td>   
+            </tr>
+            <tr>
+                <td><em>Electiva</em></td>
+                <td>Nava Bautista Martha Xochitl</td>
+                <td>xnava@ucol.mx</td>
+                <td>Profesor por Horas</td>
+                <td></td>
+            </tr>
      </table>
+     <h2>Registro de datos</h2>
+     <form>
+            <div>
+               <label Nombre</label>
+               <label for "nombre">Nombre</label>
+               <input type="text" id="nombre">
+           </div>
+           <div>
+               <label for "email"> Correo </label>
+               <input type="email" id="email" />
+            </div>
+            <div>
+                <label for "fecha">Fecha de nacimiento</label>
+                <input type="date" id="fecha"/>
+            </div>
+            <div>
+                <label for "clave">Clave de Acceso</label>
+                <input type="number" id="Clave"/>
+            </div>
+            <div>
+                <label for "clave">Confirmación de Clave de Acceso</label>
+                <input type="number" id="Clave"/>
+            </div>
+            <div>
+                <button type="submit">Enviar</button> 
+            </div>
+       </form>
 </body>
 </html>
